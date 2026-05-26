@@ -85,11 +85,6 @@ feedback-worker/node_modules/
 **/target/
 src-tauri/gen/
 **/*.rs.bk
-target/build
-target/flychek0
-target/tmp
-target/debug
-target/release/build
 
 
 

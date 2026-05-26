@@ -1,9 +1,9 @@
-# Rust workspace 根。详见 docs/refactor/migration.md 第 4 节。
+# Codex App Transfer Backend (Tauri Shell Removed)
+# 仅保留后端代理功能的版本
 
 [workspace]
 resolver = "2"
 members = [
-    "src-tauri",
     "crates/registry",
     "crates/proxy",
     "crates/adapters",
@@ -11,6 +11,7 @@ members = [
     "crates/conversation_export",
     "crates/gemini_oauth",
     "crates/usage_tracker",
+    "server",  # 新增：后端服务入口
     "xtask",
     # 后续阶段陆续启用:
     # "crates/session_cache",

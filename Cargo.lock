@@ -421,6 +421,7 @@ dependencies = [
  "axum",
  "clap",
  "codex-app-transfer-adapters",
+ "codex-app-transfer-codex-integration",
  "codex-app-transfer-gemini-oauth",
  "codex-app-transfer-proxy",
  "codex-app-transfer-registry",
